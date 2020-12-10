@@ -15,6 +15,7 @@
 		142F58602582A91900C79BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142F585E2582A91900C79BDF /* LaunchScreen.storyboard */; };
 		142F586B2582A91900C79BDF /* Swift_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142F586A2582A91900C79BDF /* Swift_CalculatorTests.swift */; };
 		142F58762582A91900C79BDF /* Swift_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142F58752582A91900C79BDF /* Swift_CalculatorUITests.swift */; };
+		142F58872582AA7000C79BDF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142F58862582AA7000C79BDF /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		142F58712582A91900C79BDF /* Swift-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		142F58752582A91900C79BDF /* Swift_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CalculatorUITests.swift; sourceTree = "<group>"; };
 		142F58772582A91900C79BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142F58862582AA7000C79BDF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				142F585C2582A91900C79BDF /* Assets.xcassets */,
 				142F585E2582A91900C79BDF /* LaunchScreen.storyboard */,
 				142F58612582A91900C79BDF /* Info.plist */,
+				142F58862582AA7000C79BDF /* SwiftUIView.swift */,
 			);
 			path = "Swift-Calculator";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				142F58582582A91400C79BDF /* ViewController.swift in Sources */,
 				142F58542582A91400C79BDF /* AppDelegate.swift in Sources */,
+				142F58872582AA7000C79BDF /* SwiftUIView.swift in Sources */,
 				142F58562582A91400C79BDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
